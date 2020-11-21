@@ -16,3 +16,5 @@ The ErrorMode block.<br>
 ![img](https://github.com/Flanker-E/repository_photo-gif/blob/main/Errorhandling_ErrorMode.png)<br>
 The TX block.<br>
 ![img](https://github.com/Flanker-E/repository_photo-gif/blob/main/Errorhandling_TX.png)<br>
+The ErrorType block.<br>
+![img](https://github.com/Flanker-E/repository_photo-gif/blob/main/Errorhandling_ErrorType.png)<br>
