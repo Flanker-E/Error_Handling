@@ -1,13 +1,13 @@
 # Error_Handling
 Error handling strategy would tackles the error and the torque attribution according to the error type.<br>
-The module judges the status according to the type of the four motor Errors
-Re-power on and restart each motor after the whole vehicle is powered on.
+The module judges the status according to the type of the four motor Errors.<br>
+Can restart the inverters independently.<br>
 
 Module return signals:
 
-Error status Num: corresponding to normal, front drive, rear drive, restart, and disabled;
-Restart status: indicates that the motor controller is restarting
-Motor controller power supply relay RelayOut: control is closed (1 is energized and 0 is disconnected), and requires the actual state RelayIn to confirm that it has restarted.
+Error status "Num": corresponding to normal, front drive, rear drive, restart, and disabled;
+Restart status "Restart": indicates that the motor controller is restarting
+Motor controller power supply relay "RelayOut": control the relay (1 is closed and 0 is open), and requires the actual state "RelayIn" to confirm that it has restarted.
 
 2020/2/6 V2.0<br>
 The overall view of error handling.<br>
